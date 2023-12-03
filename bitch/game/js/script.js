@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Create an Image object and set its source to your PNG file
 var ballImage = new Image();
-ballImage.src = "powerpuff.png"; // Replace with the actual path to your PNG file
+ballImage.src = "powerpuff.PNG"; // Replace with the actual path to your PNG file
 
 // Create an array of Image objects for each brick
 var brickImages = [
