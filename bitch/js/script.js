@@ -178,7 +178,7 @@ function showTextarea() {
 
       // Add an event listener to the clickable area
       clickableArea.addEventListener("click", function () {
-        window.location.href = "./surprise/bitch/game/index.html"; // Change this line to handle the navigation
+        window.location.href = "./game/index.html"; // Change this line to handle the navigation
         console.log("Clickable area clicked! Content: ", textareaElement.value);
       });
 
