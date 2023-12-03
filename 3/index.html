@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <title>habedey alleya</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="startGame()">
+    <script src="./js/script.js"></script>
+
+    <ul class="letters-ul">
+      <li id="letters">H</li>
+      <li id="letters">A</li>
+      <li id="letters">P</li>
+      <li id="letters">P</li>
+      <li id="letters">Y&nbsp;</li>
+      <li id="letters">B</li>
+      <li id="letters">I</li>
+      <li id="letters">R</li>
+      <li id="letters">T</li>
+      <li id="letters">H</li>
+      <li id="letters">D</li>
+      <li id="letters">A</li>
+      <li id="letters">Y</li>
+      <li id="letters">&nbsp;</li>
+      <li id="letters">A</li>
+      <li id="letters">L</li>
+      <li id="letters">L</li>
+      <li id="letters">Y</li>
+      <li id="letters">A</li>
+
+
+      <!-- <li id="letters" class="lastname"> &nbsp; E</li>
+        <li id="letters" class="lastname">S</li>
+        <li id="letters" class="lastname">T</li>
+        <li id="letters" class="lastname">H</li>
+        <li id="letters" class="lastname">E</li>
+        <li id="letters" class="lastname">T</li>
+        <li id="letters" class="lastname">I</li>
+        <li id="letters" class="lastname">Q</li>
+        <li id="letters" class="lastname">U</li>
+        <li id="letters" class="lastname">E</li> -->
+    </ul>
+
+    <canvas id="myCanvas" style="background-image: url('bg.jpeg')"></canvas>
+
+    <div id="button-container" style="text-align: center; width: 480px">
+      <!-- <button
+        onmousedown="moveup()"
+        onmouseup="clearmove()"
+        ontouchstart="moveup()"
+      >
+        UP</button> -->
+      <br /><br />
+      <button
+        onmousedown="moveleft()"
+        onmouseup="clearmove()"
+        ontouchstart="moveleft()"
+      >
+        LEFT
+      </button>
+      <button
+        onmousedown="moveright()"
+        onmouseup="clearmove()"
+        ontouchstart="moveright()"
+      >
+        RIGHT</button
+      ><br /><br />
+      <!-- <button
+        onmousedown="movedown()"
+        onmouseup="clearmove()"
+        ontouchstart="movedown()"
+      >
+        DOWN
+      </button> -->
+    </div>
+
+
+
+    <!-- <p>
+      If you click a button the red square will start moving. The movement will
+      stop when you stop pressing th button.
+    </p>
+    <p>
+      We have added the ontouchstart event on the buttons, to make this example
+      work for touch devices.
+    </p> -->
+  </body>
+</html>

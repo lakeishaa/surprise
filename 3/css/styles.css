@@ -1,0 +1,98 @@
+* {
+  top: 0;
+  left: 0;
+  /* background-image: url("https://external-preview.redd.it/YszOH9HjDsYjWn4gT5UIjL_b2DnoAoP4rgablRGptCA.jpg?auto=webp&s=9cd982e9504d541a971a47855a9e6fe308450d6f"); */
+  /* background-size: cover;  */
+  /* You can use other values like 'contain' or specify width and height */
+}
+
+body {
+  background-color: #0c9280;
+}
+
+/* https://external-preview.redd.it/YszOH9HjDsYjWn4gT5UIjL_b2DnoAoP4rgablRGptCA.jpg?auto=webp&s=9cd982e9504d541a971a47855a9e6fe308450d6f */
+
+canvas {
+  border: 1px solid #d3d3d3;
+  /* background-color: #f1f1f1; */
+  /* background-image: url("bg.jpeg"); */
+  margin-top: 80px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  border-style: inset;
+  border-width: 20px;
+
+  display: block;
+  background-image: url("bg.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
+
+.letters-ul {
+  /* background-color: #2E79EA; */
+  /* border: hsla(216, 82%, 55%, 0); */
+  border: none;
+  justify-content: auto;
+  text-align: center;
+}
+
+#letters {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+
+  text-align: center;
+  color: #ffd310;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.3rem;
+  padding: 2rem 0rem 0rem 0rem;
+  /* margin-top: 50px; */
+      
+  transition: transform 0s;
+}
+   
+#letters:hover {
+  transform: translate(0, -15px);
+  color: white;
+}
+
+button {
+  /* margin: auto; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* align-items: stretch; */
+  /* margin-top: 150px; */
+  /* position: relative; */
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffd310;
+  color: black;
+  /* z-index: 7; */
+}
+
+#button-container {
+  position: absolute;
+  top: 85%;
+  left: 32%;
+  transform: translate (-50%, -50%);
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+}
+
+#myCanvas {
+  width: 900px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
