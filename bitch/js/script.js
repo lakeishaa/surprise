@@ -164,7 +164,7 @@ function showTextarea() {
       var clickableArea = document.createElement("div");
       clickableArea.innerHTML = "Click Me";
       clickableArea.style.cursor = "pointer";
-      clickableArea.style.marginTop = "500px"; // Adjust as needed
+      clickableArea.style.marginTop = "515px"; // Adjust as needed
       clickableArea.style.marginLeft = "625px";
       clickableArea.style.zIndex = "90";
       clickableArea.style.top = "500px"; // Adjust as needed
